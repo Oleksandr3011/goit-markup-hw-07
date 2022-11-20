@@ -1,14 +1,14 @@
-.social-list {
+.social__list {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.social-item:not(:last-child) {
+.social__item:not(:last-child) {
     margin-right: 10px;
 }
 
-.social-link {
+.social__link {
     display: flex;
     justify-content: center;
     align-items: center;
