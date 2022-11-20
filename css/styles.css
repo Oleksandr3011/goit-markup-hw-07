@@ -73,6 +73,7 @@ button {
 .header__container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav {
@@ -199,10 +200,10 @@ button {
     display: flex;
     align-items: center;
 }
-.auth {
+/* .auth {
     padding-top: 32px;
     padding-bottom: 32px;
-}
+} */
 
 .auth__link:hover .btn-mail,
 .auth__link:focus .btn-mail,
@@ -905,8 +906,7 @@ button {
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.03em;
-    color: #2F303A ;
-    border-color: var(--white-color);
+    color: #2F303A border-color: var(--white-color);
 }
 
 .submit-input::placeholder {
